@@ -31,7 +31,7 @@ On the product page, like [this one](../resources/example_product_page_3_wick_ca
 | weight | 14.5 oz / 411 g | after .product-price (<product-detail> > .small-title> | |
 | rating | Vanilla Bean Noel 3-Wick Candle is rated 4.0 out of 5 by 148. | div.product-detail > div.product-content div[itemprop=aggregateRating] => <el.text> | aggregateRating => itemReviewed / ratingValue / bestRating / reviewCount |
 | social links/actions/sharing | facebook-share, twitter-tweet, instagram, piterest | div.product-detail > div.product-content > div.product-actions > div.socialsharing | |
-| reviews URL | anchored or w/e | | |
+| reviews + next reviews URL | TBD as a later goal | | |
 | snapshot date | <ISO_8601 Datetime, UTC> | N/A | |
 
 Look into https://schema.org/Offer (itemprop=offers)
@@ -44,3 +44,9 @@ Look into schema.org/Product as well
 Look into schema.org/AggregateRating as well
 
 TODO: Note which props are ephemeral, eg sale price & availability (is that it?)
+
+#### Search Results Page
+
+On search results page, like [this one](https://www.bathandbodyworks.com/c/home-fragrance/3-wick-candles), several basic properties are accessible in the search results grid.
+
+This may be a good way to **get updated prices** (fewer requests than hitting every product page).
