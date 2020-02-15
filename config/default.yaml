@@ -1,0 +1,18 @@
+scrapes:
+  pages:
+    start:
+      url: https://www.bathandbodyworks.com/c/home-fragrance/3-wick-candles
+      type: CandleSearch
+    CandleSearch:
+      type: CandleSearch
+      crawlers:
+        - CandleSearchProductTiles # maybe leave off prefix?
+        - CandleSearchPagination
+      scrapers:
+        - CandleSearchProductTiles # maybe leave off prefix?
+    CandleProduct:
+      # could include a 'pattern' prop with regex to match URLs. then page type would not have to be programmed, just configured
+      type: CandleProduct
+      crawlers: []
+      scrapers:
+        - CandleProductDetails # maybe leave off prefix?

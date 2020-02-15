@@ -1,5 +1,7 @@
 # Product
 
+Catalog entry. Bath & Body Works product; ie not a physical thing, more like a catalog description. Ex: a type of 3-wick candle B&BW says I can buy somewhere (but not a particular one).
+
 We are collecting and serving products of various types, with several properties of interest per product.
 
 Properties may vary by product type.
