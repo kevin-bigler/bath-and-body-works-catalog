@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/kevin-bigler/bath-and-body-works-catalog/issues"
   },
-  "homepage": "https://github.com/kevin-bigler/bath-and-body-works-catalog#readme"
+  "homepage": "https://github.com/kevin-bigler/bath-and-body-works-catalog#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "config": "^3.2.5"
+  }
 }
