@@ -13,7 +13,7 @@ scrapes:
           - CandleSearchProductTiles # maybe leave off prefix?
       candle-product:
         # could include a 'pattern' prop with regex to match URLs. then page type would not have to be programmed, just configured
-        type: CandleProduct
+        type: CandleDetails
         crawlers: []
         scrapers:
           - CandleProductDetails # maybe leave off prefix?
