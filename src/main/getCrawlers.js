@@ -1,10 +1,12 @@
+const crawlers = require('./crawlers');
+
 /**
  *
- * @param pageType
- * @return {[*]}
+ * @param {string} pageType
+ * @return {[Crawler]}
  */
 const getCrawlers = (pageType) => {
-    // TODO
+    return crawlers[pageType];
 };
 
 module.exports = getCrawlers;

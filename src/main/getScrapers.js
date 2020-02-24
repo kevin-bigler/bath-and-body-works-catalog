@@ -1,12 +1,9 @@
-const scrapers = {
-    CandleSearch: [],
-    CandleDetails: []
-};
+const scrapers = require('./scrapers');
 
 /**
  *
- * @param pageType
- * @return {[*]}
+ * @param {string} pageType
+ * @return {[Scraper]}
  */
 const getScrapers = (pageType) => {
     return scrapers[pageType];
