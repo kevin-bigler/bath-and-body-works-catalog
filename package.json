@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/kevin-bigler/bath-and-body-works-catalog#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "config": "^3.2.5"
   }
 }
